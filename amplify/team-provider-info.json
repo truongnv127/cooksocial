@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cooksocial-dev-aa21e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::285956107606:role/amplify-cooksocial-dev-aa21e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::285956107606:role/amplify-cooksocial-dev-aa21e-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cooksocial-dev-aa21e-deployment",
+      "UnauthRoleName": "amplify-cooksocial-dev-aa21e-unauthRole",
+      "StackName": "amplify-cooksocial-dev-aa21e",
+      "StackId": "arn:aws:cloudformation:us-east-1:285956107606:stack/amplify-cooksocial-dev-aa21e/700a4090-9785-11f0-8738-0affd6d65edf",
+      "AmplifyAppId": "dx30v6s1et7l7",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-cooksocial-dev-aa21e-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "cooksocial722ef35b": {}
+      },
+      "function": {
+        "cooksocial722ef35bCustomMessage": {
+          "REDIRECTURL": "http://localhost:3000",
+          "EMAILSUBJECT": "Welcome to Cooksocial! Confirm your account",
+          "EMAILMESSAGE": "Hello,Thank you for signing up with Cooksocial! ",
+          "deploymentBucketName": "amplify-cooksocial-dev-aa21e-deployment",
+          "s3Key": "amplify-builds/cooksocial722ef35bCustomMessage-36586f6d5332626e4c44-build.zip"
+        },
+        "cooksocial722ef35bPostConfirmation": {
+          "deploymentBucketName": "amplify-cooksocial-dev-aa21e-deployment",
+          "s3Key": "amplify-builds/cooksocial722ef35bPostConfirmation-6e4b7a766a6333575a54-build.zip"
+        }
+      },
+      "storage": {
+        "Users": {}
+      }
+    }
+  }
+}
